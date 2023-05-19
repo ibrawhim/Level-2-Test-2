@@ -7,6 +7,43 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <table id="display">
+
+    </table>
+</body>
+<script>
+    class Student {
+        constructor(firstName,lastName,age,year,height,) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+            this.year = year;
+            this.height = height
+        }
+        
+        go() {
+            alert(`This is ${this.model}`)
+        }
+    }
+
+    let student1 = new Student('Ade','Daniel','12',2011,"4'8")
+    let student2 = new Student('Ola','Josh','12',2011,"4'6")
+    let student3 = new Student('Ayo','Mary','12',2011,"4'8")
+    let student4 = new Student('James','Bimbo','12',2011,"4'8")
+    let student5 = new Student('Aluko','Mariam','12',2011,"4'8")
+    let student6 = new Student('chukwu','Lizzy','12',2011,"4'8")
+    let student7 = new Student('Ayoade','Ridwan','12',2011,"4'8")
+    let student8 = new Student('Bayo','Taiwo','12',2011,"4'8")
+    let student9 = new Student('Kenny','Billy','12',2011,"4'8")
+    let student10 = new Student('Shaq','Lara','12',2011,"4'8")
+    console.log(student10);
+   
+    display.innerHTML = `
+        <tr>
+            <td>${student1[this.year]}</td>
+        </tr>
+    `
+
+</script>
 </body>
 </html>
